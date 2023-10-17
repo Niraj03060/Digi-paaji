@@ -743,7 +743,7 @@ font-family: 'Raleway', sans-serif;*/
 
 .main-slider h2{
 	font-size:88px;
-	color:#353535;
+	color:#ffffff;
 	font-weight:800;
 	line-height:72px;
 	text-transform:uppercase;
@@ -797,7 +797,7 @@ font-family: 'Raleway', sans-serif;*/
 	margin: 6px 0px;
 	position:relative;
 	font-size:16px;
-	color: #353535;
+	color: #ffffff;
 	font-weight:800;
 	line-height:1.5em;
 	font-family:'rubik';
@@ -1672,7 +1672,7 @@ font-family: 'Raleway', sans-serif;*/
 }
 
 .services-block-two .inner-box .overlay .text {
-	padding: 0 45px;
+	padding: 14px 30px;
 	font-size: 18px;
 	line-height: 30px;
 	margin-bottom: 30px;
@@ -1890,7 +1890,7 @@ font-family: 'Raleway', sans-serif;*/
     position: absolute;
     right: 0;
     text-align: center;
-    top: 50%;
+    top: 10%;
     transform: translateY(-50%);
     transition: all 0.5s ease 0s;
     z-index: 10;

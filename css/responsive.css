@@ -13,7 +13,7 @@
 		height: 60px;
 	}
 	.main-header .main-box .logo-box {
-		position: relative;
+		z-index: 100;
 		left: 40px;
 	}
 	.main-header .info-options {
@@ -155,8 +155,7 @@
 	.main-header .nav-outer{
 		position:relative;
 		width:100%;
-		margin-top:-54px;
-		top:2px;	
+		top: 8px;	
 	}
 	
 	.main-header .nav-outer .main-menu{
@@ -314,6 +313,7 @@
 		color:#ffffff;
 		background:#333333;
 		text-align:left;
+		margin: 5px 5px;
 	}
 	
 	.main-menu .navbar-collapse > .navigation > li > a:hover,
