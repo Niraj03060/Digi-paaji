@@ -126,12 +126,12 @@ font-family: 'Raleway', sans-serif;*/
 
 .main-header .main-box .logo-box .logo {
 	display: inline-block;
-	padding: 10px 0px 7px 0px;
+	padding: 8px 0px 5px 0px;
 }
 
 .main-header.header-style-1 .main-box .logo-box .logo {
 	border-right: 1px solid #f4f4f4;
-	padding-right: 20px;
+	padding-right: -20px;
 }
 
 .main-header .main-box .logo-box span {
@@ -146,7 +146,7 @@ font-family: 'Raleway', sans-serif;*/
 	max-width:100%;
 }
 .main-logoDP{
-   height: 38px;
+   height: 42px;
 }
 
 .main-header .nav-toggler button{
@@ -162,7 +162,7 @@ font-family: 'Raleway', sans-serif;*/
 
 .main-header .nav-outer{
 	position: absolute;
-    top: 4px;
+    top: 5px;
     z-index: 10;
 }
 
@@ -186,7 +186,7 @@ font-family: 'Raleway', sans-serif;*/
 
 .main-menu .navigation > li{
 	position:relative;
-	margin-left:35px;
+	margin-left:25px;
 	display:inline-block;
 	padding: 0;
 	-webkit-transition:all 300ms ease;
@@ -521,14 +521,16 @@ font-family: 'Raleway', sans-serif;*/
 .main-header .info-options > .get-quote-btn {
 	color: #222222;
 	font-family: 'rubik';
-	padding: 9px 18px;
-	margin: 0px 12px;
+	font-size:1.55rem;
+	padding: 6px 9px;
+	margin: 0px 10px 0px 10px;
 	border: 1px solid #222222;
-	border-radius: 20px;
+	border-radius: 5px;
 }
 .main-header .info-options > .get-quote-btn:hover{
-	color: #F3713C;
+	color: #fffdfc;
 	border-color: #F3713C;
+	background-color: #F3713C;
 }
 
 .main-header .info-options > .link,
@@ -796,10 +798,10 @@ font-family: 'Raleway', sans-serif;*/
 .main-slider .text{
 	margin: 6px 0px;
 	position:relative;
-	font-size:16px;
+	font-size:1.7rem;
 	color: #ffffff;
-	font-weight:800;
-	line-height:1.5em;
+	font-weight:500;
+	line-height:1.4em;
 	font-family:'rubik';
 }
 
@@ -1157,16 +1159,17 @@ font-family: 'Raleway', sans-serif;*/
 }
 
 .map-section .default-form-area {
-	padding-top: 45px;
-	background: #fff;
-	box-shadow: 0px 5px 32px 0px rgba(0, 0, 0, 0.08);
-	position: absolute;
-	right: 0;
-	bottom: -470x;
-	max-width: 470px;
-	z-index: 9;
+    border: 0.1rem #cbcbcb solid;
+    padding-top: 45px;
+    background: #fff;
+    box-shadow: 0px 5px 32px 0px rgba(0, 0, 0, 0.08);
+    position: absolute;
+    right: 0;
+    bottom: -458x;
+    max-width: 480px;
+    z-index: 9;
+    border-radius: 24px;
 }
-
 .map-section .default-form-area h4 {
 	font-weight: 700;
 	text-transform: uppercase;
@@ -1499,9 +1502,8 @@ font-family: 'Raleway', sans-serif;*/
 	position:relative;
 	padding: 45px 23px;
 	background:  #fff;
-	border: 1px solid #e5e5e5;
+	border: 1px solid #999999;
 	border-bottom:  0px;
-	border-left: 0px;
 }
 
 .services-block-one .inner-box:before {
@@ -1519,7 +1521,7 @@ font-family: 'Raleway', sans-serif;*/
 	position: absolute;
 	content: '';
 	background: #fff;
-	border: 1px solid #dbdbdb;
+	border: 1px solid#999999;
 	border-radius: 50%;
 	height: 12px;
 	width: 12px;
@@ -1551,6 +1553,11 @@ font-family: 'Raleway', sans-serif;*/
 	text-transform:  uppercase;
 	line-height:  26px;
 	transition: .5s ease;
+	cursor: default;
+}
+
+.services-block-one .inner-box a{
+	cursor: default;
 }
 #services-block-one-text{
 	padding:12px 0px 0px 0px;
@@ -1573,6 +1580,7 @@ font-family: 'Raleway', sans-serif;*/
 }
 
 .services-block-one:hover .inner-box .text {
+	cursor: default;
     opacity: 1;
     visibility: visible;
 }
@@ -1758,12 +1766,15 @@ font-family: 'Raleway', sans-serif;*/
 	background: #F3713C;
 	height: 160px;
 	width: 160px;
-	line-height: 160px;
+	line-height: 140px;
 	border-radius: 50%;
 	transition: .5s ease;
 	transform: scale(0.8,0.8);
 	opacity: 0;
 	visibility: hidden;
+}
+.work-process-item .inner-box .overlay-icon span img{
+	border-radius: 50%;
 }
 
 .work-process-item .icon-box:hover .overlay-icon {
@@ -2400,6 +2411,10 @@ font-family: 'Raleway', sans-serif;*/
 
 .news-block-three h4:hover {
 	color: #F3713C;
+}
+.blog-image{
+	width:400px;
+	height:270px;
 }
 
 
@@ -3326,6 +3341,21 @@ font-family: 'Raleway', sans-serif;*/
 	z-index: 0;
 }
 
+/* -----New contact us------  */
 
+.contact-us-new{
+display:flex;
+flex-wrap: wrap;
+margin: 10px;
+ }
 
-
+.contact-us-section{
+text-align: center;
+margin: 20px 50px;
+}
+.contact-us-icon{
+	height: 75px;
+	width: 75px;
+	color: #000;
+	margin: 0px 0px 15px 0px;
+}

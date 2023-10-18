@@ -14,10 +14,10 @@
 	}
 	.main-header .main-box .logo-box {
 		z-index: 100;
-		left: 40px;
+		left: 30px;
 	}
 	.main-header .info-options {
-		top: 10px;
+		top: 14px;
 		z-index:11;
 	}
 	.main-header.header-style-3 .info-options {
@@ -28,7 +28,7 @@
 		z-index:10;
 	}
 	.main-menu {
-		margin-left: 40px;
+		margin-left: 50px;
 	}
 }
 
@@ -37,6 +37,7 @@
 		display:none;
 	}
 	.services-block-one {
+		margin: 0px 0px 0px -1px;
 		width: 19.99%;
 		height: 360px;
 	}
@@ -131,7 +132,7 @@
 	}
 
 	.main-header .main-box .logo-box .logo {
-	    padding: 15px 0px 7px 0px;
+	    padding: 9px 0px 8px 0px;
 	}
 
 	.main-header .main-box .logo-box {

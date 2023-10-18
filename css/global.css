@@ -215,7 +215,7 @@ li {
 /* section padding */
 
 .sp-one {
-	padding: 50px 0;
+	padding: 50px 0px 10px 0px;
 }
 
 .sp-two {
@@ -540,7 +540,7 @@ img {
 	display: block;
 	width: 30px;
 	height: 4px;
-	background: #e6e6e6;
+	background: #bbbbbb;
 	transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
