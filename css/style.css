@@ -1473,10 +1473,21 @@ font-family: 'Raleway', sans-serif;*/
 ===============================*/
 
 .services-cards-title {
-	color: #ffffff;
+	color: #222222;
 	text-align: center;
-	margin-bottom : 15px;
-	font-size: 30px;
+	margin: 5px 0px 20px 0px;
+	font-size: 3rem;
+}
+.work-process-item .inner-box:before {
+    position: absolute;
+    content: '';
+    height: 72px;
+    width: 67px;
+    right: -48px;
+    top: 80px;
+    background-image: url(../images/icons/arrow-right.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .feature .flex-box {
 	display: flex;
@@ -2974,6 +2985,13 @@ font-family: 'Raleway', sans-serif;*/
 .recent-comments .sidebar-title{
 	margin-bottom:40px;
 }
+.main-blog-comtainer{
+	position: relative;
+}
+.blog1{
+
+}
+
 
 /*Comment Block*/
 
@@ -3196,8 +3214,8 @@ font-family: 'Raleway', sans-serif;*/
 
 .partner-logo .partner-column {
 	padding: 0px;
-	border-left: 1px solid #f2f2f2;
-	border-bottom: 1px solid #f2f2f2;
+	border-left: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
 }
 
 .partner-logo .image {
@@ -3207,7 +3225,7 @@ font-family: 'Raleway', sans-serif;*/
 }
 
 .partner-logo .image img {
-	opacity: 0.3;
+	opacity: 0.7;
 	transition: .5s ease;
 }
 

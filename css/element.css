@@ -82,6 +82,12 @@ element css
 	font-weight: 1000;
 	color: #F78E3B;
 }
+.work-process-title{
+	color: #ffffff;
+    text-align: center;
+    margin: 5px 0px 20px 0px;
+    font-size: 3rem;
+}
 .sec-title.light h2 {
 
 	color: #222222;
@@ -94,6 +100,10 @@ element css
 
 .sec-title.centered {
 	text-align: center;
+}
+#work-process-underline::before{
+	border-color: white !important;
+	color: white !important;
 }
 
 .sec-title.small h2 {
