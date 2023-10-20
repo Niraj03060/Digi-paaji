@@ -544,19 +544,18 @@ element css
 
 .btn-style-fifteen {
 	position: relative;
-	padding: 12px 40px;
-	line-height: 24px;
-	color: #222;
-	text-align: center;
-	display: inline-block;
-	font-size: 14px;
-	font-weight: 700;
-	background: #f7f7f7;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	border: 1px solid #f7f7f7;
-	font-family: 'Raleway', sans-serif;
-	cursor:  pointer;
+    padding: 12px 38px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    background: #f7f7f7;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid #f7f7f7;
+    font-family: 'rubik';
+    cursor: pointer;
 }
 
 .btn-style-fifteen:hover {
@@ -1945,7 +1944,7 @@ element css
 .filter-tabs-three li span {
 	color: #353535;
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: 600;
 	line-height: 26px;
 	padding: 0px 18px;
 	border-radius: 22px;
