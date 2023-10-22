@@ -2064,7 +2064,11 @@ font-family: 'Raleway', sans-serif;*/
 ======================================
 */
 
-
+.our-team-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
 .team-block-one {
 	position: relative;
 }
