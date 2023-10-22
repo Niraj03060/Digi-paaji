@@ -3393,9 +3393,8 @@ text-align: center;
 margin: 20px 50px;
 }
 .contact-us-icon{
-	height: 75px;
-	width: 75px;
-	color: #000;
+	height: 60px;
+	width: 60px;
 	margin: 0px 0px 15px 0px;
 }
 .contact-us-inner-container{
@@ -3405,4 +3404,14 @@ margin: 20px 50px;
     max-width: 580px;
     margin: 5px 0px 10px 0px;
     padding: 10px 19px 10px 75px;
+}
+
+.verified-by-title {
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin: 20px 0px 20px 200px;
+}
+.verified-by-container{
+	display: flex;
+	flex-wrap: wrap;
 }
