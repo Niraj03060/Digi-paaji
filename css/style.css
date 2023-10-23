@@ -1459,6 +1459,7 @@ font-family: 'Raleway', sans-serif;*/
 }
 
 .text-block-one .text {
+	color: #F3713C;
 	position: relative;
 	margin-bottom: 30px;
 }
@@ -3409,11 +3410,14 @@ margin: 20px 50px;
     margin: 5px 0px 10px 0px;
     padding: 10px 19px 10px 75px;
 }
+.verified-by-main-container{
+	width: 50%;
+}
 
 .verified-by-title {
     font-weight: 600;
     font-size: 1.7rem;
-    margin: 20px 0px 20px 200px;
+
 }
 .verified-by-container{
 	display: flex;
