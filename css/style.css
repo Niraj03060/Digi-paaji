@@ -1647,6 +1647,7 @@ font-family: 'Raleway', sans-serif;*/
 }
 
 .services-block-two .inner-box h3{
+	color: #F3713C;
 	position:relative;
 	font-size: 18px;
 	font-weight: 800;
@@ -1680,7 +1681,7 @@ font-family: 'Raleway', sans-serif;*/
 }
 
 .services-block-two .inner-box .overlay {
-	margin: 40px 0px 0px 0px;
+	padding: 40px 0px 0px 0px;
 	position: absolute;
 	left: 0;
 	bottom: -40px;
