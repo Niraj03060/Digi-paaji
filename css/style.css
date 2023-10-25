@@ -1069,7 +1069,6 @@ font-family: 'Raleway', sans-serif;*/
 	line-height: 24px;
 	padding: 5px 0px 0px;
 	margin: 0px 0px 0px 36px;
-	text-transform: uppercase;
 	font-size: 11px;
 	color: #ff0000;
 	font-weight: 500;
@@ -1135,7 +1134,7 @@ font-family: 'Raleway', sans-serif;*/
 }
 
 .contact-form.style-four .theme-btn {
-	margin: 0px 82px;
+	margin: 0px 0px 0px 0px;
 }
 
 
@@ -1681,6 +1680,7 @@ font-family: 'Raleway', sans-serif;*/
 }
 
 .services-block-two .inner-box .overlay {
+	margin: 40px 0px 0px 0px;
 	position: absolute;
 	left: 0;
 	bottom: -40px;
@@ -2079,6 +2079,7 @@ font-family: 'Raleway', sans-serif;*/
 }
 
 .team-block-one .lower-content {
+	text-align: left;
 	position: relative;
 	border: 1px solid #f2f2f2;
 	padding: 20px 28px 15px;
@@ -2101,7 +2102,7 @@ font-family: 'Raleway', sans-serif;*/
 .team-block-one ul {
 	border-top: 1px solid #f2f2f2;
 	padding-top: 8px;
-	margin-top: 15px;
+	margin-top: 10px;
 }
 .team-block-one ul li {
 	display: inline-block;
@@ -2122,7 +2123,8 @@ font-family: 'Raleway', sans-serif;*/
 }
 
 .team-block-one .text {
-	margin-top: 8px;
+	font-size: 1.4rem;
+    margin-top: 7px;
 }
 
 .team-block-one .overlay {
@@ -2133,7 +2135,7 @@ font-family: 'Raleway', sans-serif;*/
 	left: 0;
 	background-color: white;
 	width:  100%;
-	padding: 20px 28px 15px;
+	padding: 15px 15px 15px 15px;
     transform: translate(0,20%);
     transition: .5s ease;
 }
@@ -3229,8 +3231,17 @@ font-family: 'Raleway', sans-serif;*/
 .partner-logo {
 	position: relative;
 	overflow: hidden;
-	margin-top: -20px;
+	margin-top: -14px;
 	margin-bottom: 30px;
+}
+.partners-heading {
+	font-size: 1.9rem;
+	margin: 0px 0px 20px 0px;
+}
+
+.partners-text {
+	font-size: 1.5rem;
+	margin: 10px 0px 10px 0px;
 }
 
 .partner-logo .outer-box {
@@ -3247,18 +3258,25 @@ font-family: 'Raleway', sans-serif;*/
 .partner-logo .image {
 	position: relative;
 	text-align: center;
-	line-height: 135px;
+	line-height: 115px;
 }
 
-.partner-logo .image img {
+.partner-logo .image .partners-title{
 	opacity: 0.5;
 	transition: .5s ease;
 }
 
-.partner-logo .image:hover img {
+.partner-logo .image:hover .partners-title {
 	opacity: 1;
 }
 
+.partners-title{
+	font-weight: 600;
+	line-height: 115px;
+}
+.partners-title:hover {
+	color: #F3713C;
+}
 /*
 ==================================
 	Projects detaisl
@@ -3410,6 +3428,9 @@ margin: 10px;
     margin: 5px 0px 10px 0px;
     padding: 36px 10px 6px 10px;
 }
+.contact-section-btn{
+	text-align: center;
+}
 .verified-by-main-container{
 	display: flex;
     flex-direction: column;
@@ -3433,7 +3454,9 @@ margin: 10px;
 	width: 110px;
 }
 
-
+.footer-text{
+	color: #7c7c7c;
+}
 
 
 
