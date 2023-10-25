@@ -68,7 +68,7 @@ font-family: 'Raleway', sans-serif;*/
 }
 
 .main-header .main-box{
-	position:relative;
+	position: fixed;
 	padding:0px 0px;
 	left:0px;
 	top:0px;
@@ -83,7 +83,7 @@ font-family: 'Raleway', sans-serif;*/
 .main-header.fixed-header .main-box {
 	position:fixed;
 	padding:0px 0px;
-	z-index:999;
+	z-index:99999;
 	opacity:1;
 	visibility:visible;
 	background-color: #ffffff;
