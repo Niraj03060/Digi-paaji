@@ -55,7 +55,7 @@ font-family: 'Raleway', sans-serif;*/
 ***/
 
 .main-header{
-	position:relative;
+	position: fixed;
 	left:0px;
 	top:0px;
 	z-index:99999;
@@ -64,7 +64,7 @@ font-family: 'Raleway', sans-serif;*/
 }
 
 .main-header .auto-container{
-	position:relative;	
+	position: fixed;	
 }
 
 .main-header .main-box{
@@ -1513,7 +1513,7 @@ font-family: 'Raleway', sans-serif;*/
 .services-block-one .inner-box{
 	text-align: center;
 	position:relative;
-	padding: 45px 23px;
+	padding: 45px 23px 5px 23px ;
 	background:  #fff;
 	border: 1px solid #dddddd;
 	border-bottom: 0px;
@@ -3272,6 +3272,7 @@ font-family: 'Raleway', sans-serif;*/
 }
 
 .partners-title{
+	font-size: 1.5rem;
 	font-weight: 600;
 	line-height: 115px;
 }
@@ -3476,4 +3477,34 @@ text-align: center;
 }
 .thankyou-img {
 
+}
+
+
+.end-section{
+	margin: 50px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+	background-color: #F3713C;
+}
+.bottom-section{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.inner-bottom-section{
+	
+    padding: 5px 10px;
+}
+.inner-bottom-section h3{
+	margin: 0px 0px 0px 0px;
+   font-size: 1.9rem;
+   text-align: left;
+   line-height: 5rem;
+}
+
+.inner-bottom-section p{
+	color: #ffffff;
+	font-size: 1.3rem;
+	line-height: 1.5rem;
 }
