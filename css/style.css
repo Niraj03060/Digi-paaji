@@ -64,7 +64,7 @@ font-family: 'Raleway', sans-serif;*/
 }
 
 .main-header .auto-container{
-	position:relative;	
+	position: fixed;	
 }
 
 .main-header .main-box{
@@ -101,7 +101,7 @@ font-family: 'Raleway', sans-serif;*/
 
 .main-header .main-box .outer-container{
 	background-color: #ffffff;
-	position: sticky;
+	position: fixed;
 	display:  flex;
 	flex-wrap:  wrap;
 	flex-direction:  row;
