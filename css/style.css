@@ -55,7 +55,7 @@ font-family: 'Raleway', sans-serif;*/
 ***/
 
 .main-header{
-	position:relative;
+	position: fixed;
 	left:0px;
 	top:0px;
 	z-index:99999;
@@ -3455,9 +3455,26 @@ margin: 10px;
 	width: 110px;
 }
 
+.bottom-section{
+	display: flex;
+	flex-wrap: wrap;
+}
+.inner-bottom-section {
+	width: 20%;
+}
+
 .footer-text{
 	color: #7c7c7c;
 }
+
+
+
+
+
+
+
+
+
 
 
 
