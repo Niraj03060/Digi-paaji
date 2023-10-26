@@ -13,6 +13,7 @@
 		position: sticky;
 		display: block;
 		height: 60px;
+		z-index: 999;
 	}
 	.main-header .main-box .logo-box {
 		z-index: 100;
