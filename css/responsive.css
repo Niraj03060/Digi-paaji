@@ -1,5 +1,6 @@
 /* Bogor Appy - App Landing HTML Template*/
 
+
 @media only screen and (max-width: 2000px){
 	
 	.page-wrapper{
@@ -7,10 +8,12 @@
 	}
 }
 
-@media only screen and (max-width: 1600px){
+@media only screen and (max-width: 2560px){
 	.main-header .main-box .outer-container {
+		position: sticky;
 		display: block;
 		height: 60px;
+		z-index: 999;
 	}
 	.main-header .main-box .logo-box {
 		z-index: 100;
@@ -43,11 +46,13 @@
 		height: 360px;
 	}
 }
+
 @media only screen and (max-width: 950px){
 	.services-block-one {
 	   height: 290px;
 	}
    }
+
 
 @media only screen and (max-width: 1340px){
 	.main-menu .navigation > li:last-child > ul{
@@ -409,6 +414,18 @@
 	}
 	
 }
+@media only screen and (max-width: 990px){
+	.services-cards-title{
+		margin: 17px 0px 15px 0px;
+    font-size: 2.4rem;
+	}
+	.work-process-title{
+		font-size: 2.4rem;
+	}
+	.work-process-main-title {
+		font-size: 2.9rem;
+	}	
+}
 
 @media only screen and (max-width: 600px){
 	
@@ -627,25 +644,31 @@
 	}
 	.verified-by-title {
 		font-weight: 600;
+
 		font-size: 1.1rem;
+
 		margin: 5px 10px 20px 10px;
 	
 	}
 	.contact-us-inner-container p{
 	font-family: 'Rubik';
     color: #222222;
+
     font-size: 1.1rem;
+
     max-width: 400px;
     margin: 5px 0px 2px 0px;
     padding: 6px 15px 5px 15px;
     }
 	.contact-us-icon {
+
 		height: 30px;
 		width: 30px;
 		margin: 0px 0px 15px 0px;
 	}
 	.contact-details h4 {
 		font-size: 10px;
+
 		font-weight: 700;
 		margin-bottom: 10px;
 	}
@@ -655,8 +678,6 @@
 		margin-bottom: 8px;
 	}
 }
-
-
 
 .fancybox-button--share{
 	display: none;
@@ -763,3 +784,12 @@
 
    
    
+   .main-header{
+	overflow: visible !important;
+    position: fixed !important;
+    left: 0px;
+    top: 0px;
+    z-index: 99999 !important;
+    width: 100%;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.06);
+}

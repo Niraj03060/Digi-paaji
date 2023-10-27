@@ -55,12 +55,15 @@ font-family: 'Raleway', sans-serif;*/
 ***/
 
 .main-header{
+
 	position: fixed;
 	left:0px;
 	top:0px;
 	z-index:99999;
 	width:100%;
 	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.06);
+
+
 }
 
 .main-header .auto-container{
@@ -96,12 +99,13 @@ font-family: 'Raleway', sans-serif;*/
 }
 
 .main-header.fixed-header .header-span {
+	position: fixed;
 	height: 60px;
 }
 
 .main-header .main-box .outer-container{
 	background-color: #ffffff;
-	position: sticky;
+	position: fixed;
 	display:  flex;
 	flex-wrap:  wrap;
 	flex-direction:  row;
@@ -3456,9 +3460,26 @@ margin: 10px;
 	width: 110px;
 }
 
+.bottom-section{
+	display: flex;
+	flex-wrap: wrap;
+}
+.inner-bottom-section {
+	width: 20%;
+}
+
 .footer-text{
 	color: #7c7c7c;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3478,6 +3499,7 @@ text-align: center;
 .thankyou-img {
 
 }
+
 
 
 .end-section{
