@@ -55,13 +55,15 @@ font-family: 'Raleway', sans-serif;*/
 ***/
 
 .main-header{
-	overflow: visible !important;
-    position: fixed !important;
-    left: 0px;
-    top: 0px;
-    z-index: 99999 !important;
-    width: 100%;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.06);
+
+	position: fixed;
+	left:0px;
+	top:0px;
+	z-index:99999;
+	width:100%;
+	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.06);
+
+
 }
 
 .main-header .auto-container{
@@ -1515,7 +1517,7 @@ font-family: 'Raleway', sans-serif;*/
 .services-block-one .inner-box{
 	text-align: center;
 	position:relative;
-	padding: 45px 23px;
+	padding: 45px 23px 5px 23px ;
 	background:  #fff;
 	border: 1px solid #dddddd;
 	border-bottom: 0px;
@@ -3274,6 +3276,7 @@ font-family: 'Raleway', sans-serif;*/
 }
 
 .partners-title{
+	font-size: 1.5rem;
 	font-weight: 600;
 	line-height: 115px;
 }
@@ -3497,3 +3500,33 @@ text-align: center;
 
 }
 
+
+
+.end-section{
+	margin: 50px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+	background-color: #F3713C;
+}
+.bottom-section{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.inner-bottom-section{
+	
+    padding: 5px 10px;
+}
+.inner-bottom-section h3{
+	margin: 0px 0px 0px 0px;
+   font-size: 1.9rem;
+   text-align: left;
+   line-height: 5rem;
+}
+
+.inner-bottom-section p{
+	color: #ffffff;
+	font-size: 1.3rem;
+	line-height: 1.5rem;
+}

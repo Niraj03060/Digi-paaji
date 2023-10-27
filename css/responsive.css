@@ -35,6 +35,7 @@
 	}
 }
 
+
 @media only screen and (max-width: 1400px){
 	.shop-banner:before{
 		display:none;
@@ -45,16 +46,13 @@
 		height: 360px;
 	}
 }
-@media only screen and (max-width: 900px){
-	.shop-banner:before{
-		display:none;
-	}
+
+@media only screen and (max-width: 950px){
 	.services-block-one {
-		margin: 0px 0px 0px -1px;
-		width: 19.99%;
-		height: 290px;
+	   height: 290px;
 	}
-}
+   }
+
 
 @media only screen and (max-width: 1340px){
 	.main-menu .navigation > li:last-child > ul{
@@ -296,13 +294,13 @@
 		
 	.main-menu .navbar-collapse > .navigation > li > ul,
 	.main-menu .navbar-collapse > .navigation > li > ul > li > ul{
-		border-top:1px solid rgba(255,255,255,1) !important;	
+		border-top:1px solid rgb(148, 147, 147) !important;	
 	}
 	
 	.main-menu .navbar-collapse > .navigation > li,
 	.main-menu .navbar-collapse > .navigation > li > ul > li,
 	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li{
-		border-top:1px solid rgba(255,255,255,1) !important;
+		border-top:1px solid #F3713C !important;
 		border-bottom:none;
 		opacity:1 !important;
 		top:0px !important;
@@ -324,8 +322,8 @@
 	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a{
 		padding:10px 10px !important;
 		line-height:22px;
-		color:#ffffff;
-		background:#F3713C;
+		color:#F3713C;
+		background:#ffffff;
 		text-align:left;
 		margin: 0px 0px;
 	}
@@ -342,7 +340,7 @@
 	.main-menu .navbar-collapse > .navigation > li.current > a,
 
 	.main-menu .navbar-collapse > .navigation > li.current-menu-item > a{
-		background:#333333;
+		background:#F3713C;
 		color:#ffffff !important;
 	}
 	
@@ -502,10 +500,42 @@
     visibility: hidden;
 }
 }
+
+@media only screen and (max-width: 1200px){
+	.work-process-title {
+		color: #ffffff;
+		text-align: center;
+		margin: 5px 0px 20px 0px;
+		font-size: 2.5rem;
+	}
+	.work-process-main-title {
+		font-size: 2.9rem;
+		font-weight: 1000;
+		color: #F78E3B;
+	}
+	.services-cards-title {
+		color: #222222;
+		text-align: center;
+		margin: 15px 0px 10px 0px;
+		font-size: 2.5rem;
+	}
+}
+
+@media only screen and (max-width: 400px){
+    .sec-title h2 {
+		font-size: 20px;
+	}
+	.sec-title .big-title {
+		font-size: 25px;
+		top: -2px;
+	}
+}
+
+
 /* @media only screen and (max-width: 1200px){
 	.contact-us-inner-container{
 		max-width: 475px;
-	}
+}nb 																					C
 } */
 
 
@@ -518,7 +548,7 @@
     flex-direction: column;
     justify-content: center;
     width: 50%;
-    align-items: center;
+    align-items: center;       
 	}
 	.verified-by-container .image-bottom img{
 		height:90px;
@@ -598,6 +628,7 @@
 		margin-bottom: 10px;
 	}
 }
+
 @media only screen and (max-width: 350px){
 
 	.verified-by-main-container{
@@ -613,25 +644,31 @@
 	}
 	.verified-by-title {
 		font-weight: 600;
-		font-size: 1rem;
+
+		font-size: 1.1rem;
+
 		margin: 5px 10px 20px 10px;
 	
 	}
 	.contact-us-inner-container p{
 	font-family: 'Rubik';
     color: #222222;
-    font-size: 1rem;
+
+    font-size: 1.1rem;
+
     max-width: 400px;
     margin: 5px 0px 2px 0px;
     padding: 6px 15px 5px 15px;
     }
 	.contact-us-icon {
-		height: 35px;
-		width: 35px;
+
+		height: 30px;
+		width: 30px;
 		margin: 0px 0px 15px 0px;
 	}
 	.contact-details h4 {
-		font-size: 12px;
+		font-size: 10px;
+
 		font-weight: 700;
 		margin-bottom: 10px;
 	}
@@ -641,6 +678,7 @@
 		margin-bottom: 8px;
 	}
 }
+
 .fancybox-button--share{
 	display: none;
 }
@@ -668,6 +706,83 @@
 		width: 325px;
    }
    }
+
+
+@media only screen and (max-width: 1160px){
+	.inner-bottom-section {
+		
+		padding: 5px 10px;
+	}
+	
+	.inner-bottom-section h3{
+	   font-size: 1.7rem;
+	   text-align: left;
+	}
+	
+	.inner-bottom-section p{
+		font-size: 1.1rem;
+		line-height: 1.5rem;
+	}
+
+}
+@media only screen and (max-width: 830px){
+	.inner-bottom-section {
+		
+		padding: 5px 64px;
+	}
+	
+	.inner-bottom-section h3{
+	   font-size: 1.8rem;
+	   text-align: left;
+	}
+	
+	.inner-bottom-section p{
+		font-size: 1.2rem;
+		line-height: 1.5rem;
+	}
+
+}
+@media only screen and (max-width: 710px){
+	.inner-bottom-section {
+		text-align: left;
+		padding: 5px 64px;
+	}
+	
+	.inner-bottom-section h3{
+	   font-size: 1.8rem;
+	   text-align: left;
+	}
+	
+	.inner-bottom-section p{
+		font-size: 1.2rem;
+		line-height: 1.5rem;
+	}
+
+}
+
+@media only screen and (max-width: 500px){
+	
+	.bottom-section {
+		justify-content: left;
+	}
+	.inner-bottom-section {
+		text-align: left;
+		padding: 5px 64px;
+	}
+	
+	.inner-bottom-section h3{
+	   font-size: 1.5rem;
+	   text-align: left;
+	}
+	
+	.inner-bottom-section p{
+		font-size: 1.2rem;
+		line-height: 1.5rem;
+	}
+}
+
+
+   
    
    .main-header{
 	overflow: visible !important;
